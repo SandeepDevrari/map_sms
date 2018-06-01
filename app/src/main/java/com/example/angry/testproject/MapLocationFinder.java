@@ -122,7 +122,7 @@ public class MapLocationFinder extends AppCompatActivity implements
                     "Accuracy: " + mCurrentLocation.getAccuracy() + "\n" +
                     "Provider: " + mCurrentLocation.getProvider());
             SmsManager smsManager = SmsManager.getDefault();
-            smsManager.sendTextMessage("8979221199", null, data.getText().toString(), null, null);
+            smsManager.sendTextMessage("89799", null, data.getText().toString(), null, null);
         }
     }
 
